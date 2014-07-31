@@ -22,6 +22,8 @@
 		F2AAA36C1989E85300E98ACE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AAA34B1989E85300E98ACE /* UIKit.framework */; };
 		F2AAA3741989E85300E98ACE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2AAA3721989E85300E98ACE /* InfoPlist.strings */; };
 		F2AAA3761989E85300E98ACE /* SHFlatButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AAA3751989E85300E98ACE /* SHFlatButtonTests.m */; };
+		F2AAA3821989E87700E98ACE /* SHFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AAA3811989E87700E98ACE /* SHFlatButton.m */; };
+		F2AAA3831989E87700E98ACE /* SHFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AAA3811989E87700E98ACE /* SHFlatButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		F2AAA3711989E85300E98ACE /* SHFlatButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHFlatButtonTests-Info.plist"; sourceTree = "<group>"; };
 		F2AAA3731989E85300E98ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F2AAA3751989E85300E98ACE /* SHFlatButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHFlatButtonTests.m; sourceTree = "<group>"; };
+		F2AAA3801989E87700E98ACE /* SHFlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHFlatButton.h; sourceTree = "<group>"; };
+		F2AAA3811989E87700E98ACE /* SHFlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHFlatButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 		F2AAA34D1989E85300E98ACE /* SHFlatButton */ = {
 			isa = PBXGroup;
 			children = (
+				F2AAA37F1989E86D00E98ACE /* SHFlatButton */,
 				F2AAA3561989E85300E98ACE /* AppDelegate.h */,
 				F2AAA3571989E85300E98ACE /* AppDelegate.m */,
 				F2AAA3591989E85300E98ACE /* Main_iPhone.storyboard */,
@@ -153,6 +158,15 @@
 				F2AAA3721989E85300E98ACE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2AAA37F1989E86D00E98ACE /* SHFlatButton */ = {
+			isa = PBXGroup;
+			children = (
+				F2AAA3801989E87700E98ACE /* SHFlatButton.h */,
+				F2AAA3811989E87700E98ACE /* SHFlatButton.m */,
+			);
+			path = SHFlatButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +270,7 @@
 				F2AAA3611989E85300E98ACE /* ViewController.m in Sources */,
 				F2AAA3581989E85300E98ACE /* AppDelegate.m in Sources */,
 				F2AAA3541989E85300E98ACE /* main.m in Sources */,
+				F2AAA3821989E87700E98ACE /* SHFlatButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2AAA3761989E85300E98ACE /* SHFlatButtonTests.m in Sources */,
+				F2AAA3831989E87700E98ACE /* SHFlatButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

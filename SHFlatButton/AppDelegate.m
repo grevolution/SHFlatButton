@@ -7,11 +7,18 @@
 //
 
 #import "AppDelegate.h"
+#import "SHFlatButton.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    [[SHFlatButton appearance] setShadowHeight:6];
+    [[SHFlatButton appearance] setButtonColor:UIColorFromRGB(0xEE2E24)];
+    [[SHFlatButton appearance] setShadowColor:UIColorFromRGB(0x820000)];
+    [[SHFlatButton appearance] setDisabledColor:UIColorFromRGB(0xD4D4D4)];
+    
     // Override point for customization after application launch.
     return YES;
 }
