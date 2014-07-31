@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2AAA3481989E85300E98ACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AAA3471989E85300E98ACE /* Foundation.framework */; };
+		F2AAA34A1989E85300E98ACE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AAA3491989E85300E98ACE /* CoreGraphics.framework */; };
+		F2AAA34C1989E85300E98ACE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AAA34B1989E85300E98ACE /* UIKit.framework */; };
+		F2AAA3521989E85300E98ACE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2AAA3501989E85300E98ACE /* InfoPlist.strings */; };
+		F2AAA3541989E85300E98ACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AAA3531989E85300E98ACE /* main.m */; };
+		F2AAA3581989E85300E98ACE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AAA3571989E85300E98ACE /* AppDelegate.m */; };
+		F2AAA35B1989E85300E98ACE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AAA3591989E85300E98ACE /* Main_iPhone.storyboard */; };
+		F2AAA35E1989E85300E98ACE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AAA35C1989E85300E98ACE /* Main_iPad.storyboard */; };
+		F2AAA3611989E85300E98ACE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AAA3601989E85300E98ACE /* ViewController.m */; };
+		F2AAA3631989E85300E98ACE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2AAA3621989E85300E98ACE /* Images.xcassets */; };
+		F2AAA36A1989E85300E98ACE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AAA3691989E85300E98ACE /* XCTest.framework */; };
+		F2AAA36B1989E85300E98ACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AAA3471989E85300E98ACE /* Foundation.framework */; };
+		F2AAA36C1989E85300E98ACE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AAA34B1989E85300E98ACE /* UIKit.framework */; };
+		F2AAA3741989E85300E98ACE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2AAA3721989E85300E98ACE /* InfoPlist.strings */; };
+		F2AAA3761989E85300E98ACE /* SHFlatButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AAA3751989E85300E98ACE /* SHFlatButtonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2AAA36D1989E85300E98ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2AAA33C1989E85300E98ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2AAA3431989E85300E98ACE;
+			remoteInfo = SHFlatButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2AAA3441989E85300E98ACE /* SHFlatButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHFlatButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2AAA3471989E85300E98ACE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2AAA3491989E85300E98ACE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2AAA34B1989E85300E98ACE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2AAA34F1989E85300E98ACE /* SHFlatButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHFlatButton-Info.plist"; sourceTree = "<group>"; };
+		F2AAA3511989E85300E98ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2AAA3531989E85300E98ACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2AAA3551989E85300E98ACE /* SHFlatButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SHFlatButton-Prefix.pch"; sourceTree = "<group>"; };
+		F2AAA3561989E85300E98ACE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2AAA3571989E85300E98ACE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2AAA35A1989E85300E98ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		F2AAA35D1989E85300E98ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		F2AAA35F1989E85300E98ACE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2AAA3601989E85300E98ACE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2AAA3621989E85300E98ACE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F2AAA3681989E85300E98ACE /* SHFlatButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHFlatButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2AAA3691989E85300E98ACE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F2AAA3711989E85300E98ACE /* SHFlatButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHFlatButtonTests-Info.plist"; sourceTree = "<group>"; };
+		F2AAA3731989E85300E98ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2AAA3751989E85300E98ACE /* SHFlatButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHFlatButtonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2AAA3411989E85300E98ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AAA34A1989E85300E98ACE /* CoreGraphics.framework in Frameworks */,
+				F2AAA34C1989E85300E98ACE /* UIKit.framework in Frameworks */,
+				F2AAA3481989E85300E98ACE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AAA3651989E85300E98ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AAA36A1989E85300E98ACE /* XCTest.framework in Frameworks */,
+				F2AAA36C1989E85300E98ACE /* UIKit.framework in Frameworks */,
+				F2AAA36B1989E85300E98ACE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2AAA33B1989E85300E98ACE = {
+			isa = PBXGroup;
+			children = (
+				F2AAA34D1989E85300E98ACE /* SHFlatButton */,
+				F2AAA36F1989E85300E98ACE /* SHFlatButtonTests */,
+				F2AAA3461989E85300E98ACE /* Frameworks */,
+				F2AAA3451989E85300E98ACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2AAA3451989E85300E98ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2AAA3441989E85300E98ACE /* SHFlatButton.app */,
+				F2AAA3681989E85300E98ACE /* SHFlatButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2AAA3461989E85300E98ACE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2AAA3471989E85300E98ACE /* Foundation.framework */,
+				F2AAA3491989E85300E98ACE /* CoreGraphics.framework */,
+				F2AAA34B1989E85300E98ACE /* UIKit.framework */,
+				F2AAA3691989E85300E98ACE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2AAA34D1989E85300E98ACE /* SHFlatButton */ = {
+			isa = PBXGroup;
+			children = (
+				F2AAA3561989E85300E98ACE /* AppDelegate.h */,
+				F2AAA3571989E85300E98ACE /* AppDelegate.m */,
+				F2AAA3591989E85300E98ACE /* Main_iPhone.storyboard */,
+				F2AAA35C1989E85300E98ACE /* Main_iPad.storyboard */,
+				F2AAA35F1989E85300E98ACE /* ViewController.h */,
+				F2AAA3601989E85300E98ACE /* ViewController.m */,
+				F2AAA3621989E85300E98ACE /* Images.xcassets */,
+				F2AAA34E1989E85300E98ACE /* Supporting Files */,
+			);
+			path = SHFlatButton;
+			sourceTree = "<group>";
+		};
+		F2AAA34E1989E85300E98ACE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2AAA34F1989E85300E98ACE /* SHFlatButton-Info.plist */,
+				F2AAA3501989E85300E98ACE /* InfoPlist.strings */,
+				F2AAA3531989E85300E98ACE /* main.m */,
+				F2AAA3551989E85300E98ACE /* SHFlatButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2AAA36F1989E85300E98ACE /* SHFlatButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2AAA3751989E85300E98ACE /* SHFlatButtonTests.m */,
+				F2AAA3701989E85300E98ACE /* Supporting Files */,
+			);
+			path = SHFlatButtonTests;
+			sourceTree = "<group>";
+		};
+		F2AAA3701989E85300E98ACE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2AAA3711989E85300E98ACE /* SHFlatButtonTests-Info.plist */,
+				F2AAA3721989E85300E98ACE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2AAA3431989E85300E98ACE /* SHFlatButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2AAA3791989E85300E98ACE /* Build configuration list for PBXNativeTarget "SHFlatButton" */;
+			buildPhases = (
+				F2AAA3401989E85300E98ACE /* Sources */,
+				F2AAA3411989E85300E98ACE /* Frameworks */,
+				F2AAA3421989E85300E98ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHFlatButton;
+			productName = SHFlatButton;
+			productReference = F2AAA3441989E85300E98ACE /* SHFlatButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2AAA3671989E85300E98ACE /* SHFlatButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2AAA37C1989E85300E98ACE /* Build configuration list for PBXNativeTarget "SHFlatButtonTests" */;
+			buildPhases = (
+				F2AAA3641989E85300E98ACE /* Sources */,
+				F2AAA3651989E85300E98ACE /* Frameworks */,
+				F2AAA3661989E85300E98ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2AAA36E1989E85300E98ACE /* PBXTargetDependency */,
+			);
+			name = SHFlatButtonTests;
+			productName = SHFlatButtonTests;
+			productReference = F2AAA3681989E85300E98ACE /* SHFlatButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2AAA33C1989E85300E98ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.grevolution.shflatbutton;
+				TargetAttributes = {
+					F2AAA3671989E85300E98ACE = {
+						TestTargetID = F2AAA3431989E85300E98ACE;
+					};
+				};
+			};
+			buildConfigurationList = F2AAA33F1989E85300E98ACE /* Build configuration list for PBXProject "SHFlatButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2AAA33B1989E85300E98ACE;
+			productRefGroup = F2AAA3451989E85300E98ACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2AAA3431989E85300E98ACE /* SHFlatButton */,
+				F2AAA3671989E85300E98ACE /* SHFlatButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2AAA3421989E85300E98ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AAA35E1989E85300E98ACE /* Main_iPad.storyboard in Resources */,
+				F2AAA3631989E85300E98ACE /* Images.xcassets in Resources */,
+				F2AAA35B1989E85300E98ACE /* Main_iPhone.storyboard in Resources */,
+				F2AAA3521989E85300E98ACE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AAA3661989E85300E98ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AAA3741989E85300E98ACE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2AAA3401989E85300E98ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AAA3611989E85300E98ACE /* ViewController.m in Sources */,
+				F2AAA3581989E85300E98ACE /* AppDelegate.m in Sources */,
+				F2AAA3541989E85300E98ACE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AAA3641989E85300E98ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AAA3761989E85300E98ACE /* SHFlatButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2AAA36E1989E85300E98ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2AAA3431989E85300E98ACE /* SHFlatButton */;
+			targetProxy = F2AAA36D1989E85300E98ACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2AAA3501989E85300E98ACE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2AAA3511989E85300E98ACE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2AAA3591989E85300E98ACE /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2AAA35A1989E85300E98ACE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F2AAA35C1989E85300E98ACE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2AAA35D1989E85300E98ACE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F2AAA3721989E85300E98ACE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2AAA3731989E85300E98ACE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2AAA3771989E85300E98ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2AAA3781989E85300E98ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2AAA37A1989E85300E98ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHFlatButton/SHFlatButton-Prefix.pch";
+				INFOPLIST_FILE = "SHFlatButton/SHFlatButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2AAA37B1989E85300E98ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHFlatButton/SHFlatButton-Prefix.pch";
+				INFOPLIST_FILE = "SHFlatButton/SHFlatButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F2AAA37D1989E85300E98ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SHFlatButton.app/SHFlatButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHFlatButton/SHFlatButton-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SHFlatButtonTests/SHFlatButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F2AAA37E1989E85300E98ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SHFlatButton.app/SHFlatButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHFlatButton/SHFlatButton-Prefix.pch";
+				INFOPLIST_FILE = "SHFlatButtonTests/SHFlatButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2AAA33F1989E85300E98ACE /* Build configuration list for PBXProject "SHFlatButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2AAA3771989E85300E98ACE /* Debug */,
+				F2AAA3781989E85300E98ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2AAA3791989E85300E98ACE /* Build configuration list for PBXNativeTarget "SHFlatButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2AAA37A1989E85300E98ACE /* Debug */,
+				F2AAA37B1989E85300E98ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2AAA37C1989E85300E98ACE /* Build configuration list for PBXNativeTarget "SHFlatButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2AAA37D1989E85300E98ACE /* Debug */,
+				F2AAA37E1989E85300E98ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2AAA33C1989E85300E98ACE /* Project object */;
+}
