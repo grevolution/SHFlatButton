@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         	= "SHFlatButton"
   s.version      	= "0.0.1"
-  s.summary      	= "`SHFlatButton` a reusable UIButton subclass to create 3d styled flat buttons with shadow"
+  s.summary      	= "`SHFlatButton` a reusable UIButton subclass to create flat buttons"
 
   s.description  	= <<-DESC
                    `SHFlatButton` a reusable UIButton subclass to create 3d styled flat buttons with shadow
