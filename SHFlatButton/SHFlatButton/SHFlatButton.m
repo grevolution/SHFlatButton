@@ -53,6 +53,14 @@
     [super setHighlighted:highlighted];
 }
 
+- (NSNumber*) shadowHeightNumber {
+	return [NSNumber numberWithDouble:(double)self.shadowHeight];
+}
+
+- (void) setShadowHeightNumber:(NSNumber *)shadowHeightNumber {
+	self.shadowHeight = (CGFloat)[shadowHeightNumber doubleValue];
+}
+
 - (void) setShadowHeight:(CGFloat)shadowHeight {
     _shadowHeight = shadowHeight;
     UIEdgeInsets insets = self.defaultEdgeInsets;

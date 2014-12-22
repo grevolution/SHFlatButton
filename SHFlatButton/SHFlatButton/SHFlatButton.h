@@ -47,6 +47,7 @@
 /**
  *  the shadow height of the button
  */
+@property (nonatomic) NSNumber *shadowHeightNumber UI_APPEARANCE_SELECTOR;
 @property(nonatomic) CGFloat shadowHeight UI_APPEARANCE_SELECTOR;
 
 @end
